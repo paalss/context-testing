@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <h1>React context testing</h1>
-      <div>
+      <section>
         <Context.Provider value={{
           data, setData
         }}>
@@ -21,7 +21,7 @@ function App() {
           <Name />
           <Age />
         </Context.Provider>
-      </div>
+      </section>
     </>
   )
 }
