@@ -9,7 +9,7 @@ export const Inputs = () => {
       <input value={data.name} onChange={e => setData(prev => ({ ...prev, name: e.target.value }))} id="name" name="name" />
       <br />
       <label htmlFor="age">Age</label>{" "}
-      <input value={data.age} onChange={e => setData(prev => ({ ...prev, age: e.target.value }))} id="age" name="age" />
+      <input type="number" value={data.age} onChange={e => setData(prev => ({ ...prev, age: e.target.value }))} id="age" name="age" />
       <hr />
     </>
   )
